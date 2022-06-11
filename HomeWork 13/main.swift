@@ -42,7 +42,7 @@ import Foundation
 //        get {
 //            return "Phonenumber : \(number)"
 //        } set {
-//            return number = Int(newValue) ?? number
+//             number = Int(newValue) ?? number
 //        }
 //    }
 //}
@@ -50,8 +50,8 @@ import Foundation
 //let number1 = PhoneNUmber()
 //print(number1.modelNumber)
 //
-//number1.number = 37494333258
-//print(number1.modelNumber)
+//number1.modelNumber = "37494333258"
+//print(number1.number)
 
 
 
@@ -134,6 +134,20 @@ import Foundation
 //let c = Mebel(qanak: [1, 2, 3, 4, 10])
 //print(c.divan)
 
+//example 2
+
+//struct Calculator3 {
+//
+//    var values: [Int]
+//
+//    var result: Double {
+//        return Double(values.reduce(0, +)/values.count)
+//    }
+//}
+//let c = Calculator3(values: [3, 5, 1])
+//print(c.result)
+
+
 
 //   6 . Ստեղծել struct որը կունենա 1 stored property [Int] տիպի կունենա 1 computed property Double տիպի,
 //միայն կարտալու (get) համար որոնք կվերադաձնի stored property-ում գտվող արժեքների միջին թվաբանականը։
@@ -163,6 +177,18 @@ import Foundation
 //let myArr = MijinTvabanakan(nums: [1, 2, 3, 4, 5])
 //print(myArr.num)
 
+//example 2
+
+//struct Calculator3 {
+//
+//    var values: [Int]
+//
+//    var result: Double {
+//        return Double(values.reduce(0, +)/values.count)
+//    }
+//}
+//let c = Calculator3(values: [3, 5, 1])
+//print(c.result)
 
 
 //7... Ստեղծել struct որը կունենա 1 stored property [String: Int] տիպի կունենա 1 computed property [String],
